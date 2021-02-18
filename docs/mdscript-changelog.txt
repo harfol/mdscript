@@ -1,0 +1,26 @@
+# # # # # # # # # # # # # # # # # # #ChangeLog # # # # # # # # # # # # # # #
+# v1.1.1
+# append 'update' command that can download news posts in the $post_dir.
+# 
+# v1.1.0
+# 版本跟新：把帮组文档独立出来，较大改动
+# 把整个仓库_posts下的文件放在 $HOME/.mdcache/post 下用于操作
+# 修改内容显示函数，支持种类型的脚本，会在开头显示
+#
+# v1.0.2
+# update '-l' optimized display.
+#
+# v1.0.1
+# append '--clean' remove $CACHE, by default not remove.
+# update '-l' not show index informations.
+#
+# v1.0.0
+# excrat ``` content from markdown file.
+# example :
+# 	./mdscript -f test.md -l    # show test.md all script
+# 	./mdscript -f test.md -l 0    # show the first scrip from test.md 
+# 	
+# 	# show all script from web file. sure url already urlencode 
+#	./mdscript -u https://github.com/harmful-chan/summary/xxx.md -l    
+#
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #

@@ -1,0 +1,11 @@
+    [show]  -- 原有功能
+        -a -- all 显示所有博客文件 
+        -u -- url 指定远程.md文件url
+        -t -- type 指定脚本类型
+        -f -- file 指定本地.md 文件 
+        -l -- list 显示.md文件内```之间的内容
+        --clean -- 清楚缓存目录 $HOME/.mdscript
+    [help] -- 显示mdscript-help.txt
+    [use] -- 显示mdscriot.use.txt
+	[clean] -- remove $HOME/.mdcache
+	[update] -- remove $HOME/.mdcache/post and update post directory.

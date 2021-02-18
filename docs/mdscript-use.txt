@@ -1,0 +1,13 @@
+alias mdspt='bash ${pwd}/mdscript.sh'        # 添加别名 
+mdspt create 'file name' 'subtitle' 'tag1'   # create new .md file in current dir
+mdspt show -a                                # show all .md fil
+mdspt show -f 1 -l                           # show all script content -f [file index] 
+mdspt show -f 1 -l 0                         # show specified script content -l [script index]
+mdspt show -f ../myblogs.md -l [0]           # use local file -f [file path]
+mdspt show -u 'https://github.com/..a.md' -l # use remote file
+mdspt clean                                  # remove $HOME/.mdcache
+mdspt help                                   # sricpt help
+mdspt use                                    # current document
+
+## 注意：-a -u -f等 会在本地生成缓存，若查看同一个文档 可以 
+mdspt show -l [0] <=> mdspt show -f ${HOME}/.mdcache/cache -l 0

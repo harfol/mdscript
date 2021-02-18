@@ -1,0 +1,11 @@
+Source:mdscript
+Priority:optional
+Maintainer:harfol 1148706823@qq.com
+Build-Depends:wget curl
+Standards-Version:4.0.0
+Version: 1.0.0
+Package:mdscript
+Architecture:all
+Description:mkscript deb packagea!
+Depends: curl, wget
+Homepage:https://github.com/harfol/mdscript.git
